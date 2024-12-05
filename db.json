@@ -1,0 +1,109 @@
+{
+  "eventsList": [
+    {
+      "id": "0",
+      "title": "Novoroční oslava",
+      "start": "2024-01-15T09:00:00.000Z",
+      "end": "2024-01-17T17:00:00.000Z",
+      "allDay": true
+    },
+    {
+      "id": "6a9f",
+      "title": "Celodenní Novoročni Akce",
+      "start": "2024-12-01T00:00:00.000",
+      "end": "2024-12-01T23:59:59.000",
+      "allDay": true
+    },
+    {
+      "id": "55b3",
+      "title": "Snídaně s panem Presidentem",
+      "start": "2024-12-01T08:00:00.000",
+      "end": "2024-12-01T10:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "ee78",
+      "title": "Obed s Premiérem",
+      "start": "2024-12-01T12:00:00.000",
+      "end": "2024-12-01T14:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "33c7",
+      "title": "Meeting 1",
+      "start": "2024-12-06T11:00:00.000",
+      "end": "2024-12-06T13:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "f082",
+      "title": "Ranní meeting",
+      "start": "2024-12-06T05:00:00.000",
+      "end": "2024-12-06T07:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "58f5",
+      "title": "Večeře s Premiérem",
+      "start": "2024-11-30T23:00:00.000Z",
+      "end": "2024-12-01T22:59:59.000Z",
+      "allDay": true
+    },
+    {
+      "id": "783d",
+      "title": "Celotýdenní půst",
+      "start": "2024-12-08T23:00:00.000Z",
+      "end": "2024-12-13T23:00:00.000Z",
+      "allDay": false
+    },
+    {
+      "id": "618e",
+      "title": "DIA firemní rozcvička",
+      "start": "2024-12-01T05:00:00.000",
+      "end": "2024-12-01T06:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "98df",
+      "title": "Dia Celofiremní dovolená",
+      "start": "2024-12-03T00:00:00.000",
+      "end": "2024-12-05T00:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "d038",
+      "title": "Celodenní procházka s Prezidentem",
+      "start": "2024-12-07T00:00:00.000",
+      "end": "2024-12-07T23:59:59.000",
+      "allDay": true
+    },
+    {
+      "id": "5955",
+      "title": "Noční přejídání",
+      "start": "2024-12-06T01:00:00.000",
+      "end": "2024-12-06T03:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "0b99",
+      "title": "Celotýdenní Teambuilding na horách",
+      "start": "2024-12-16T00:00:00.000",
+      "end": "2024-12-23T00:00:00.000",
+      "allDay": false
+    },
+    {
+      "id": "6392",
+      "title": "Meeting s hodně dloooooooooooooooooooooooooooooooooooooooooouhým názvem",
+      "start": "2024-12-12T00:00:00.000",
+      "end": "2024-12-12T23:59:59.000",
+      "allDay": true
+    },
+    {
+      "id": "e006",
+      "title": "Crypto currency traiding Workshop",
+      "start": "2024-12-28T00:00:00.000",
+      "end": "2024-12-30T00:00:00.000",
+      "allDay": false
+    }
+  ]
+}

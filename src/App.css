@@ -5,12 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  transition: transform 3s ease-out; /* Gradual stop effect when the cursor leaves */
 }
 
 .App-header {
@@ -28,11 +23,70 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.calendar-container {
+  padding: 20px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Swing animation for the logo */
+.App-logo.swing {
+  animation: swing 2s ease-in-out forwards;
+}
+
+/* Swing keyframes */
+@keyframes swing {
+  0% {
+    transform: translateX(0);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateX(30px);
   }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.app-logo {
+  width: 150px;
+  height: auto;
+}
+
+.rbc-btn {
+  color: rgb(0, 0, 0);
+  border: 1px solid #b6b6b6;
+  padding: 4px 16px; 
+  margin: 0 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  outline: gray;
+}
+
+.rbc-btn:hover {
+  background-color: #3174ad;
+}
+
+.rbc-btn:focus {
+  outline: none;
+}
+
+.event-details button:focus {
+  outline: none;
+}
+
+.rbc-button-link {
+  color: #3174ad;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.rbc-button-link:hover {
+  color: #3174ad;
+  background-color: rgb(216, 216, 216);
 }
